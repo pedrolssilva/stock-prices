@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Preco teto: executar em debug",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "stock_prices_ceiling.cli",
+            "args": [
+                "KLBN4",
+                "--years",
+                "5",
+                "--profit",
+                "6",
+                "--output",
+                "output/preco_teto-DEBUG.xlsx"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
